@@ -1,0 +1,87 @@
+@import url(./assets/fonts/font.css);
+
+body{
+    font-family: Exo2;
+    background-color: rgb(24, 24, 24);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin: 0;
+    border: 0;
+    padding: 0;
+}
+
+#corpo{
+    display: flex;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+h1{
+    color: white;
+}
+
+#inputs{
+    border: 0;
+    display: flex;
+    justify-content: space-between;
+    height: 3rem;
+    width: 230px;
+    margin-bottom: 3px;
+}
+
+#botao{
+    width: 3rem;
+    height: 3rem;
+    border-radius: 10px;
+    outline: none;
+    border: 0;
+}
+
+#texto{
+    border: 0;
+    border-radius: 10px;
+    outline: none;
+    background-color: rgb(2, 2, 2);
+    color: white;
+}
+
+#lista{
+    display: flex;
+    flex-direction: column;
+    color: white;
+    width: 230px;
+    border: 0;
+    padding: 0;
+    margin: 0;
+    justify-content: space-between;
+}
+
+li{
+    width: 230px;
+    height: 30px;
+    list-style: none;
+    background-color:rgb(43, 43, 43) ;
+    margin: 3px;
+    margin-left: 0;
+    border-radius: 2px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+
+li::first-letter{
+    text-transform: uppercase;
+}
+
+#botaoOk{
+    outline: none;
+    margin: 0;
+    height: 30px;
+    width: 30px;
+}
+
